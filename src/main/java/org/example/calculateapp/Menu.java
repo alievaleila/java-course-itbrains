@@ -29,7 +29,7 @@ public class Menu {
                 case 2 -> "-";
                 case 3 -> "*";
                 case 4 -> "/";
-                default -> null;
+                default -> "";
             };
 
             System.out.println("Enter the first number: ");
