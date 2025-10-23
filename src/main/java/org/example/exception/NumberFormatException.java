@@ -9,9 +9,9 @@ public class NumberFormatException {
             System.out.println("Enter the text: ");
             String a = sc.nextLine();
 
-            int b=Integer.parseInt(a);
+            int b = Integer.parseInt(a);
             System.out.println(b);
-        }catch(Exception e){
+        } catch (Exception e) {
             System.out.println(e.getMessage());
         }
     }
