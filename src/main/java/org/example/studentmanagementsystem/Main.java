@@ -8,11 +8,11 @@ public class Main {
         StudentManager sm = new StudentManager();
 
         while (true) {
-            System.out.println("Add a student: ");
-            System.out.println("Show the list: ");
-            System.out.println("Find by id: ");
-            System.out.println("Delete: ");
-            System.out.println("Exit");
+            System.out.println("1.Add a student: ");
+            System.out.println("2.Show the list: ");
+            System.out.println("3.Find by id: ");
+            System.out.println("4.Delete: ");
+            System.out.println("5.Exit");
 
             System.out.println("Enter your choice: ");
             int choice = sc.nextInt();
