@@ -22,7 +22,7 @@ public class CarRentalSystem {
 
             if (choice == 5) {
                 System.out.println("The program terminated");
-                break;
+                return;
             }
 
             switch (choice) {
@@ -32,7 +32,7 @@ public class CarRentalSystem {
                         System.out.print((i + 1 + "."));
                         cars[i].displayInfo();
                     }
-                    break;
+                    return;
                 case 2:
                     System.out.println("Which one do you want to rent?(1-3)");
                     int index = sc.nextInt() - 1;
@@ -41,7 +41,7 @@ public class CarRentalSystem {
                     } else {
                         System.out.println("Invalid choice");
                     }
-                    break;
+                    return;
                 case 3:
                     System.out.println("Exit the system..");
                     return;
