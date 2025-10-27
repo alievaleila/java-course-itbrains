@@ -20,8 +20,6 @@ public class Main {
         acc1.withdraw(100);
         acc2.deposit(1200);
 
-
-
         for (BankAccount account : accounts) {
             account.showInfo();
         }
