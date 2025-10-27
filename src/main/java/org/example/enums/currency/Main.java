@@ -1,4 +1,4 @@
-package org.example.enumandprice;
+package org.example.enums.currency;
 
 public class Main {
     public static void main(String[] args) {

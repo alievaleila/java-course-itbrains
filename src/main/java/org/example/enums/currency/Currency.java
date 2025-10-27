@@ -1,4 +1,4 @@
-package org.example.enumandprice;
+package org.example.enums.currency;
 
 public enum Currency {
     USD(1.7),
