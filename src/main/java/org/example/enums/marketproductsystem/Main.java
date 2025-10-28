@@ -14,5 +14,12 @@ public class Main {
         for(Product product:products){
             System.out.println(product);
         }
+
+        for(Product product: products) {
+            if (product.getCategory() == Category.FOOD) {
+                product.getInfo();
+            }
+        }
+
     }
 }
