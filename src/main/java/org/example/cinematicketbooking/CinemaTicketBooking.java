@@ -7,7 +7,6 @@ public class CinemaTicketBooking {
         Scanner sc = new Scanner(System.in);
         Cinema c = new Cinema();
 
-
         while (true) {
             System.out.println("-----Cinema Ticket Booking System-----");
             System.out.println("1.Buy a standard ticket");
@@ -41,8 +40,6 @@ public class CinemaTicketBooking {
                     return;
                 default:
                     System.out.println("Invalid choice");
-
-
             }
         }
     }
