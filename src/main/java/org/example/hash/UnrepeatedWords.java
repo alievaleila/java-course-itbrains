@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class UnrepeatedWords {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the word");
+        System.out.println("Enter the word: ");
         String a = sc.nextLine();
 
         HashSet<Character> letters = new HashSet<>();
@@ -16,7 +16,7 @@ public class UnrepeatedWords {
                 unique.append(a.charAt(i));
             }
         }
-        System.out.println(unique.toString());
+        System.out.println(unique);
     }
 }
 
