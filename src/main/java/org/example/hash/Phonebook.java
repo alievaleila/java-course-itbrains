@@ -15,27 +15,20 @@ public class Phonebook {
             printMenu();
             int choice = sc.nextInt();
             switch (choice) {
-                case 1:
-                    System.out.println(phonebook.get("Elxan"));
-                    break;
-                case 2:
+                case 1 -> System.out.println(phonebook.get("Elxan"));
+                case 2 -> {
                     phonebook.put("Leyla", "+994708007530");
                     System.out.println("Phone number was added: " + phonebook);
-                    break;
-                case 3:
+                }
+                case 3 -> {
                     phonebook.remove("Ibrahim");
                     System.out.println("Phone number was deleted" + phonebook);
-                    break;
-                case 4:
-                    System.out.println("Exit.");
-                    break;
-                default:
-                    System.out.println("Invalid choice.");
-                    break;
+                }
+                case 4 -> System.out.println("Exit.");
+                default -> System.out.println("Invalid choice.");
             }
         }
     }
-
     private static void printMenu() {
         System.out.println("-----Phonebook-----");
         System.out.println(" 1. Find a number.");
