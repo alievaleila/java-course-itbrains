@@ -14,6 +14,5 @@ public class DublicateWords {
             }
         }
         System.out.println(dublicates);
-
     }
 }
