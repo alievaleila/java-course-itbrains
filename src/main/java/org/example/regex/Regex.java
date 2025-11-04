@@ -16,7 +16,8 @@ public class Regex {
 //       Pattern pattern = Pattern.compile("[a-b]");
 //      Pattern pattern = Pattern.compile("[^a-zA-Z]");
 //      Pattern pattern = Pattern.compile("H+");
-        Pattern pattern = Pattern.compile("H?");
+//        Pattern pattern = Pattern.compile("H?");
+        Pattern pattern = Pattern.compile(".*\\.png$");
 
         Matcher matcher = pattern.matcher("HHHelloWorld");
         System.out.println(matcher.find());
